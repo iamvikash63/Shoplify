@@ -1,0 +1,78 @@
+.Product-details{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+.heading-checkout{
+    text-align: center;
+    padding: 20px;
+}
+.dv-about-product{
+    width: 250px;
+}
+.dv-product-img{
+    height: 80px;
+    width: 100px;
+}
+.dv-product-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-checkout{
+    display: flex;
+    width: 400px;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+   margin: 10px 0px 10px 0px;
+}
+.dv-product-detail{
+    display: flex;
+    gap: 20px;
+}
+.cart-qntity{
+    font-size: .8rem;
+    margin: 8px 0px 8px 0px;
+}
+.checkout-edit{
+    color: #01c39c;
+    cursor: pointer;
+}
+.checkout-remove{
+    color: red;
+    cursor: pointer;
+}
+.payment-checkout{
+    width: 300px;
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+.Price-calculate{
+    padding: 15px ;
+    border: 1px solid gainsboro;
+    margin: 15px 0px 15px 0px;
+}
+.total-price{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.smbt button{
+    width: 100%;
+    padding: 10px;
+    background-color: #01c39c;
+    border:none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.empty-cart-a{
+    color: black;
+    text-decoration: none;
+    background-color: #01c39c;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+}
