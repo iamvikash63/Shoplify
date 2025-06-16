@@ -51,7 +51,7 @@ document.querySelector('.checkout-page').innerHTML=CartHtml;
 }
 document.querySelector('.Price-calculate').innerHTML=`  <h3> Products ( ${paymentItemQnt} items )</h3> <div 
 class="total-price"><p>Total Product Price</p> <p>₹${TotalPrice}</p></div>
-<div class="total-price"><h4>GST-18%</h4> <p>₹${(TotalPrice*18)/100}</p></div>
+<div class="total-price"><h4>GST Included: 18%</h4> <p>₹${(TotalPrice*18)/100}</p></div>
             <div class="total-price"><h4>Total Order</h4> <p>₹${TotalPrice}</p></div>`;
 
 

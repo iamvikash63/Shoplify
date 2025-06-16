@@ -14,7 +14,7 @@ export function getproduct(Product_id){
       image: "images/products/Diva-Glittering-Jewellery.webp",
       name: "Diva Glittering Jewellery",
       rating: {
-        stars: 4.5,
+        stars: 1,
         count: 87
       },
       priceCents: 188,

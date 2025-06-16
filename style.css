@@ -137,7 +137,7 @@ left: 18%;
 
 /* products section */
 .product-flitter-sec{
-    width: 30%;
+    width: 20%;
   
     padding: 10px;
 }
@@ -147,7 +147,7 @@ left: 18%;
     font-weight: 400;
 }
 .product-sec{
-    width: 70%;
+    width: 80%;
 
     border: 1px solid rgb(190, 188, 188);
 }
@@ -180,11 +180,16 @@ left: 18%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .product-sec{
     display: flex;
 
+  flex-shrink: calc(100% - 20%);
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
     padding: 10px;
     gap: 10px;
 }
